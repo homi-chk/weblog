@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>守契之路  --陈红康</title>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0 initial-scale=1.0, minimum-scale=1.0">
+  <!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script> -->
+  <!-- 主题样式-start -->
+  <!-- Theme: Defaults -->
+   <!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css"> -->
+ <!--  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css"> -->
+<!--   <link rel="stylesheet" href="//unpkg.com/docsify/themes/buble.css"> -->
+  <link rel="stylesheet" href="//unpkg.com/docsify/themes/dark.css">
+ <!--  <link rel="stylesheet" href="//unpkg.com/docsify/themes/pure.css"> -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/themes/dolphin.css"> -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css"> -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous"> -->
+<!-- 主题样式-stop -->
+<!-- 不清楚-start -->
+
+<!-- <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script> -->
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/viz.js@1.8.0/viz.js"></script> -->
+
+ <!-- 不清楚-stop -->
+</head>
+<body>
+  <div id="app"></div>
+  <!-- 订制侧边栏-start -->
+  <script>
+   window.$docsify = {
+    loadSidebar: true,
+    subMaxLevel: 2
+  }
+</script>
+<!-- 订制侧边栏-stop -->
+<!-- 搜索框-start -->
+<!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!-- 搜索框-stop -->
+
+
+<!-- 右上角挂件-start -->
+  <script>
+     window.$docsify = {
+      name: '工作随笔',
+      // repo: 'https://github.com/Hanxueqing/Douban-Movie.git',
+      repo:'https://github.com/',
+      coverpage: true
+    }
+  </script>
+  <!-- 右上角挂件-stop -->
+
+<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+<!--   <script src="//unpkg.com/docsify"></script> -->
+  <!-- Docsify v4 -->
+ 
+    <!-- <script src="//unpkg.com/docsify/lib/docsify.min.js"></script> -->
+
+  <script src="js/prism.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      id: location.pathname,
+      clientID: 'a782c22c9db1dc03ce02',
+      clientSecret: '097b9db3761373cc651fa0f113d9efd89ba703f2',
+      repo: 'Notes',
+      owner: 'aopstudio',
+      admin: ['aopstudio'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
+
+</body>
+</html>
