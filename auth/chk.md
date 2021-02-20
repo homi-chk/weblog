@@ -7,3 +7,5 @@
 * 小橙邮箱 ：2949894717@qq.com
 
 * 小橙 B 站：https://space.bilibili.com/514094393
+
+* 小橙日记 ：http://keep-the-contract.gitee.io/weblog/#/
